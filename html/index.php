@@ -114,6 +114,8 @@ if (empty($config['favicon'])) {
     echo('  <link rel="shortcut icon" href="'.$config['favicon'].'" />' . "\n");
 }
 ?>
+    <link href="js/custom/docsupport/chosen.css" rel="stylesheet"  type="text/css" />
+
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
   <link href="css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
